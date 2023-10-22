@@ -1,0 +1,53 @@
+.container ol{
+    font-size: 1.4em;
+    color: #cecece;
+    margin: 20px 0px;
+    list-style: disc;
+}
+.container li {
+    font-size: 1em;
+    color: #cecece;
+    width: 800px; 
+    text-align: justify;
+    margin-bottom: 20px; 
+  }
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #faff5a;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 500px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    margin-left: 130px;
+}
+
+#form .error{
+    padding-top: 8px;
+    color: red;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-left: 130px;
+}
